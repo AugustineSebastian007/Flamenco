@@ -1,0 +1,575 @@
+<!doctype html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Music Landing Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="favicon.ico">
+
+        <!--Google Font link-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/slick-theme.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/fonticons.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/bootsnav.css">
+
+
+        <!--For Plugins external css-->
+        <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <style>
+        @media (max-width: 768px) {
+  body {
+    font-size: 14px;
+
+  }
+  @media only screen and (max-width: 768px) {
+    .main_home {
+        padding-top: 110px;
+        padding-bottom: 100px;
+        padding-left: 3px;
+        padding-right: 5px;
+    }
+    .roomy-100{
+        padding-top: 20px;
+        padding-left: 153px;
+        padding-right: 89px;
+    }
+    .container {
+        padding-top: 10px;
+    }
+    .navbar-brand {
+
+        padding: 1px 15px;
+    }
+    .ab_head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home_text h1 {
+        font-size: 2.8rem;
+        line-height: 3rem;
+    }
+    h5 {
+        padding-top: -10px;
+        font-size: 1.1 rem;
+        line-height: 1.1 rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .home {
+        padding-bottom: 100px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    .ab_head h5 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    h5 {
+        padding-top: -10px;
+        font-size: 1.1 rem;
+        line-height: 1.1 rem;
+    }
+}
+}
+@media only screen and (max-width: 768px) {
+    .home {
+
+        padding-bottom: 100px;
+        padding-left: 180px;
+    }
+
+
+
+
+}
+    </style>
+    <body data-spy="scroll" data-target=".navbar-collapse">
+
+
+        <!-- Preloader -->
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_four"></div>
+                </div>
+            </div>
+        </div><!--End off Preloader -->
+
+
+        <div class="culmn">
+            <!--Home page style-->
+
+
+            <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
+                <!-- Start Top Search -->
+                <div class="top-search">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Top Search -->
+
+                <div class="container">
+                    <!-- Start Atribute Navigation -->
+                    <div class="attr-nav">
+                        <ul>
+
+                            <!-- <li class="search"><a href="#"><i class="fa fa-search"></i></a></li> -->
+                            <!-- <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li> -->
+                        </ul>
+                    </div>
+                    <!-- End Atribute Navigation -->
+
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="#brand">
+
+                            <img src="assets/images/logo.png" class="logo logo-display m-top-10" alt="">
+                            <img src="assets/images/logo.jpg" class="logo logo-scrolled" alt="">
+
+                        </a>
+                    </div>
+                    <!-- End Header Navigation -->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li><a href="#hello">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#service">Our Service</a></li>
+                            <li><a href="#skill">Portfolio</a></li>
+
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+
+
+                <!-- Start Side Menu -->
+                <div class="side">
+                    <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+                    <div class="widget">
+                        <h6 class="title">Custom Pages</h6>
+                        <ul class="link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget">
+                        <h6 class="title">Additional Links</h6>
+                        <ul class="link">
+                            <li><a href="#">Retina Homepage</a></li>
+                            <li><a href="#">New Page Examples</a></li>
+                            <li><a href="#">Parallax Sections</a></li>
+                            <li><a href="#">Shortcode Central</a></li>
+                            <li><a href="#">Ultimate Font Collection</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Side Menu -->
+
+            </nav>
+
+
+            <!--Home Sections-->
+
+            <section id="hello" class="home bg-mega">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="main_home">
+                            <div class="home_text">
+                                <h1 class="text-white">Your Music Journey  <br />Starts Here with flamenco</h1>
+                                <br />
+                                <h5 class="text-gray">flamenco is the ultimate destination for music lovers, <br />
+                                  offering unlimited streaming and downloads of 1 million+ songs.  <br />
+                                  Our state-of-the-art music player features offline playback, personalized  <br /> recommendations,
+                                  and more. Join us today and discover your next favorite sound.</h5>
+                            </div>
+
+                            <div class="home_btns m-top-40">
+                                <a href="" class="btn btn-primary m-top-20">GET STARTED</a>
+                                <a href="../Login.php" class="btn btn-default m-top-20">LOGIN NOW</a>
+                            </div>
+
+                        </div>
+                    </div><!--End off row-->
+                </div><!--End off container -->
+            </section> <!--End off Home Sections-->
+
+
+            <!--About Sections-->
+            <section id="about" class="about roomy-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_about">
+                            <div class="col-md-6">
+                                <div class="about_content">
+                                    <h2>ABOUT US</h2>
+                                    <div class="separator_left"></div>
+
+                                    <p>Welcome to Flamenco, the ultimate destination for music lovers! Here, you can explore and discover the best in [music genre or artist name]. From in-depth information on your favorite artists and their work, to the latest news and updates in the music world, we've got you covered. Whether you're a seasoned music connoisseur or just getting started, this is the perfect place to indulge your passion for music. So, sit back, relax and immerse yourself in the sounds that move you! </p>
+
+                                    <div class="about_btns m-top-40">
+                                        <a href="" class="btn btn-primary">DOWNLOAD NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about_accordion wow fadeIn">
+                                    <div id="faq_main_content" class="faq_main_content">
+                                        <h6 class="open"><i class="fa fa-angle-right"></i> UNIQUE DESIGN </h6>
+                                        <div class="open">
+                                            <div class="content">
+                                                <p>At Flamenco, we believe that the design of a music website should be just as unique and memorable as the music it features. That's why we've created a visually stunning and intuitive platform that seamlessly blends form and function. From our dynamic layout, to our custom graphics and animations, every aspect of the website has been carefully crafted to provide an unforgettable user experience. Whether you're browsing your favorite artist's discography or checking out the latest concert tour dates, you'll be mesmerized by the beauty and functionality of our design. Get ready to be transported to a world of musical magic, where the sounds and sights are just as captivating as the music itself. </p>
+
+                                            </div>
+                                        </div> <!-- End off accordion item-1 -->
+
+                                        <h6 ><i class="fa fa-angle-right"></i> EXPERIENCE TEAM</h6>
+                                        <div >
+                                            <div class="content">
+                                                <p>At Flamenco, we are proud to have a highly experienced and passionate team working behind the scenes to bring you the best in music. Our team consists of music experts, industry professionals, and dedicated fans who share a love for all things music. With years of combined experience and a deep understanding of the industry, our team is well equipped to deliver the latest news, in-depth analysis, and exclusive content to our readers. Whether you're a die-hard fan or a newcomer to the music scene, you can trust that our team will bring you the most accurate and up-to-date information. Join us on this musical journey, and let our experienced team be your guide to the world of sound!</p>
+                                            </div>
+                                        </div> <!-- End off accordion item-2 -->
+
+                                        <h6> <i class="fa fa-angle-right"></i> GREAT SERVICE </h6>
+                                        <div>
+                                            <div class="content">
+                                                <p>At Flamenco, we are committed to providing our visitors with an unparalleled music experience. That's why we offer a wide range of services designed to enhance your connection to the music you love. Whether you're looking for in-depth information about your favorite artists, exclusive interviews, or simply a place to stream your favorite tunes, we've got you covered. Our aim is to make discovering and enjoying music as seamless and enjoyable as possible, which is why we go above and beyond to provide great customer service. If you have any questions or comments, our friendly and knowledgeable customer support team is always available to help. Join us now and experience the joy of music like never before! </p>
+                                            </div>
+                                        </div> <!-- End off accordion item-3 -->
+
+                                        <h6><i class="fa fa-angle-right"></i> FREE UPDATES </h6>
+                                        <div>
+                                            <div class="content">
+                                                <p>At Flamenco, we understand that music is always evolving and changing, which is why we are dedicated to providing our visitors with the latest updates and information. That's why we offer free and regular updates on all things music-related, so you can stay in the loop and up-to-date with the latest developments. Whether it's new album releases, tour dates, or breaking news in the music world, you can count on us to deliver it all directly to your screen. Our goal is to keep you informed and connected to the music you love, without any extra cost or hassle. Sign up for our free updates today and stay ahead of the curve in the ever-changing world of music! </p>
+                                            </div>
+                                        </div> <!-- End off accordion item-4 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--End off row-->
+                </div><!--End off container -->
+                <br />
+                <br />
+                <br />
+                <br />
+                <hr />
+                <br />
+                <br />
+                <div class="container">
+                    <div class="row">
+                        <div class="about_bottom_content">
+                            <div class="col-md-4">
+                                <div class="about_bottom_item m-top-20">
+                                    <div class="ab_head">
+                                        <div class="ab_head_icon">
+                                            <i class="icofont icofont-fire-burn"></i>
+                                        </div>
+                                        <h6 class="m-top-20"> WE’RE CREATIVE</h6>
+                                    </div>
+                                    <p class="m-top-20">At Flamenco, creativity is at the heart of everything we do. From our innovative website design, to the exclusive content we offer, we are always pushing the boundaries of what's possible in the world of music.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="about_bottom_item m-top-20">
+                                    <div class="ab_head">
+                                        <div class="ab_head_icon">
+                                            <i class="icofont icofont-speech-comments"></i>
+                                        </div>
+                                        <h6 class="m-top-20">WE'RE FRIENDLY</h6>
+                                    </div>
+                                    <p class="m-top-20">At Flamenco, we pride ourselves on being a friendly and approachable platform for music lovers. Whether you're a seasoned music connoisseur or just getting started, we are here to help and support you on your musical journey. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="about_bottom_item m-top-20">
+                                    <div class="ab_head">
+                                        <div class="ab_head_icon">
+                                            <i class="icofont icofont-heart"></i>
+                                        </div>
+                                        <h6 class="m-top-20">WE LOVE MINIMALISM</h6>
+                                    </div>
+                                    <p class="m-top-20">At Flamenco, we believe that less is more. That's why we embrace minimalism in everything we do, from our clean and streamlined website design, to the simple and intuitive features we offer.
+                                   </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--End off row-->
+                </div><!--End off container -->
+            </section> <!--End off About section -->
+
+
+
+
+
+
+            <!--Service Section-->
+            <section id="service" class="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_service roomy-100">
+                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                                <div class="head_title text-center">
+                                    <h2>OUR SERVICES</h2>
+                                    <div class="separator_auto"></div>
+                                    <p>At Flamenco, we offer a variety of services to enhance your connection to the music you love. Whether you're looking for a platform to stream your favorite tunes, access to exclusive content, or in-depth information about your favorite artists, we've got you covered. Our services include:<br>
+
+<b>Music streaming:</b> Enjoy unlimited access to millions of songs from your favorite artists.<br>
+
+<b>Exclusive content:</b> Get access to interviews, behind-the-scenes footage, and more.<br>
+
+<b>Artist information: </b>Learn about your favorite artists' discographies, tours, and more.<br>
+
+<b>Concerts and tours: </b>Stay up-to-date on the latest concert dates and ticket information.<br>
+
+<b>Music news and updates: </b>Stay informed on the latest developments in the music world.<br><br>
+
+Our goal is to make discovering and enjoying music as effortless and enjoyable as possible, which is why we are constantly updating and expanding our services. Join us today and experience the world of music like never before!</p>
+                                </div>
+                            </div>
+
+                              <div class="col-md-4">
+                                  <div class="service_item">
+                                      <i class="icofont icofont-light-bulb"></i>
+                                      <h6 class="m-top-30">BRANDING</h6>
+                                      <div class="separator_small"></div>
+                                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                          sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                          magna aliquam erat volutpat. </p>
+                                  </div>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="service_item">
+                                      <i class="icofont icofont-imac"></i>
+                                      <h6 class="m-top-30">BRANDING</h6>
+                                      <div class="separator_small"></div>
+                                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                          sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                          magna aliquam erat volutpat. </p>
+                                  </div>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="service_item">
+                                      <i class="icofont icofont-video"></i>
+                                      <h6 class="m-top-30">BRANDING</h6>
+                                      <div class="separator_small"></div>
+                                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                          sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                          magna aliquam erat volutpat. </p>
+                                  </div>
+                              </div>
+                        </div>
+                    </div><!--End off row -->
+                </div><!--End off container -->
+            </section> <!--End off Featured section-->
+
+
+
+            <!--Skill Sections-->
+            <section id="skill" class="skill roomy-100">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="skill_bottom_content text-center">
+                            <div class="col-md-3">
+                                <div class="skill_bottom_item">
+                                    <h2 class="statistic-counter">3468</h2>
+                                    <div class="separator_small"></div>
+                                    <h5><em>Artists</em></h5>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="skill_bottom_item">
+                                    <h2 class="statistic-counter">4638</h2>
+                                    <div class="separator_small"></div>
+                                    <h5><em>Music</em></h5>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="skill_bottom_item">
+                                    <h2 class="statistic-counter">3468</h2>
+                                    <div class="separator_small"></div>
+                                    <h5><em>Users</em></h5>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="skill_bottom_item">
+                                    <h2 class="statistic-counter">3468</h2>
+                                    <div class="separator_small"></div>
+                                    <h5><em>Playlists</em></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--End off row-->
+                </div><!--End off container -->
+            </section> <!--End off Skill section -->
+
+
+
+            <!-- Testimonial Section-->
+            <!-- <section id="testimonial" class="testimonial fix">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="main_testimonial roomy-100">
+                            <div class="head_title text-center">
+                                <h2 class="text-white">OUR TESTIMONIALS</h2>
+                            </div>
+                            <div class="testimonial_slid text-center">
+                                <div class="testimonial_item">
+                                    <div class="col-sm-10 col-sm-offset-1">
+                                        <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                            suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+
+                                        <div class="test_authour m-top-30">
+                                            <h6 class="text-white m-bottom-20">JOHN DOE - THEMEFOREST USER</h6>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial_item">
+                                    <div class="col-sm-10 col-sm-offset-1">
+                                        <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                            suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+
+                                        <div class="test_authour m-top-30">
+                                            <h6 class="text-white m-bottom-20">JOHN DOE - THEMEFOREST USER</h6>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial_item">
+                                    <div class="col-sm-10 col-sm-offset-1">
+                                        <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                            suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+
+                                        <div class="test_authour m-top-30">
+                                            <h6 class="text-white m-bottom-20">JOHN DOE - THEMEFOREST USER</h6>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial_item">
+                                    <div class="col-sm-10 col-sm-offset-1">
+                                        <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                            suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+
+                                        <div class="test_authour m-top-30">
+                                            <h6 class="text-white m-bottom-20">JOHN DOE - THEMEFOREST USER</h6>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!End off row-->
+                <!-- </div><!End off container -->
+            <!-- </section> <!End off Testimonial section -->
+
+
+
+            <!-- scroll up-->
+            <div class="scrollup">
+                <a href="#"><i class="fa fa-chevron-up"></i></a>
+            </div><!-- End off scroll up -->
+
+
+
+
+
+
+        </div>
+
+            <!-- JS includes -->
+
+            <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+            <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+            <script src="assets/js/jquery.magnific-popup.js"></script>
+            <script src="assets/js/jquery.easing.1.3.js"></script>
+            <script src="assets/js/slick.min.js"></script>
+            <script src="assets/js/jquery.collapse.js"></script>
+            <script src="assets/js/bootsnav.js"></script>
+
+
+            <!-- paradise slider js -->
+
+
+            <script src="http://maps.google.com/maps/api/js?key=AIzaSyD_tAQD36pKp9v4at5AnpGbvBUsLCOSJx8"></script>
+            <script src="assets/js/gmaps.min.js"></script>
+
+
+
+
+
+
+
+            <script src="assets/js/plugins.js"></script>
+            <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
